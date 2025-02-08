@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "bossbarutils",
+  "version": "${version}",
+  "name": "BossBarUtils",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "gg.cat.bossbarutils.BossbarUtils"
+    ]
+  },
+  "mixins": [
+    "bossbarutils.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
